@@ -19,5 +19,5 @@ MissionCard.propTypes = {
   country: PropTypes.string.isRequired,
   destination: PropTypes.string.isRequired,
   name: PropTypes.string.isRequired,
-  year: PropTypes.number.isRequired,
+  year: PropTypes.string.isRequired,
 };
