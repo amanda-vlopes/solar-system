@@ -1,0 +1,89 @@
+.solar__system {
+  color:white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
+
+h2 {
+  font-size: 40px;
+  font-weight: 300;
+}
+
+.planets {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.planets::after {
+  content: '';
+  height: 1px;
+  width: 100%;
+  background-color: white;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: -1;
+  opacity: .5;
+}
+
+.solarSystem__card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.solarSystem__card p {
+  font-size: 16px;
+}
+
+.solarSystem__card hr {
+  color: white;
+}
+
+.planets__name {
+  position: absolute;
+  bottom: -32px;
+}
+
+#Mercúrio {
+  width: 41px;
+  height: 31px;
+}
+
+#Vênus {
+  width: 102px;
+  height: 76px;
+}
+
+#Terra {
+  width: 106px;
+  height: 79px;
+}
+
+#Marte {
+  width: 66px;
+  height: 50px;
+}
+
+#Júpiter {
+  width: 272px;
+  height: 204px;
+}
+
+#Saturno {
+  width: 282.41px;
+  height: 210.9px;
+}
+
+#Urano {
+  width: 144px;
+  height: 109px;
+}
+
+#Netuno {
+  width: 144px;
+  height: 109px;
+}
